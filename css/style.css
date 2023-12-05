@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    color: #fff;
+}
+body{
+    margin: 0;
+}
+
+/* TAMAÑOS */
+
+.__70{
+    width: 70%;
+}
+
+
+/* BARRA SUPERIOR */
+.__barra_superior{
+    width: 100%;
+    background-color: #588B86;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.__barra_superior > div{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.__navegacion{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: right;
+}
+.__navegacion div a{
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-left: 15px;
+}
+
+
+/* CONTENIDO LLAMATIVO DEL INICIO */
+.__banner{
+    width: 100%;
+    background-color: #588B86;
+}
+.__banner div{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.__titulo_descr{
+    display: flex;
+    flex-direction: column;
+}
+.__titulo{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.__descripcion{
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.__btn{
+    width: 200px;
+    padding: 8px;
+    border-radius: 25px;
+    border: none;
+    background-color: #F4D9D0;
+    color: #588B86;
+    font-weight: 700;
+}
+.__btn:hover{
+    transition: 150ms;
+    transform: scale(1.02);
+}
+.__imagen_inicio{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: end;
+}
+.__mancha_fondo{
+    position: absolute;
+    width: 400px;
+}
+.__imagen_inicio img{
+    margin: auto;
+    width: 500px;
+    border-radius: 15px;
+    z-index: 1;
+}
+
+.__imagen_ondas{
+    width: 100%;
+}
+.__imagen_ondas img{
+    width: 100%;
+}
+
+
+/* DETALLES DEL PROYECTO */
+.__detalles_del_proyecto{
+    width: 100%;
+}
+.__detalles_del_proyecto div{
+
+}
+
+.__subtitulos{
+    color: #588B86;
+}
