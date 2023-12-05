@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrollo</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/monokai-sublime.min.css'>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js'></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                },
+                fontFamily: {
+                    poppins: ['Poppins'],
+                    josefin: ['"Josefin Sans"']
+                },
+            }
+        }
+        hljs.highlightAll();
+    </script>
+</head>
+<body>
+    <section class="__barra_superior">
+        <div class="">
+            <div class="__logo_titulo font-bold">
+                <h3><a href="/">Boris the Teddy</a></h3>
+            </div>
+            <nav class="__navegacion">
+                <div><a href="/">Inicio</a></div>
+                <div><a href="">¿De qué trata?</a></div>
+                <div><a href="/desarrollo.html" class="active">Desarrollo</a></div>
+                <div><a href="">Información y Datos</a></div>
+                <div><a href="">Nosotros</a></div>
+            </nav>
+        </div>
+    </section>
+    <div class="__imagen_ondas absolute top-16 ">
+        <img src="/assets/img/ondas.svg" alt="">
+    </div>
+
+    <section class="w-full pt-[100px]">
+        <div class="w-[70%] m-auto">
+            <h1 class="__titulo font-poppins font-bold text-[#588B86] text-center">Desarrollo</h1>
+            <p class="text-black mb-10">
+                Boris, un osito de peluche con luces de colores, está especialmente creado para apoyar a niños con síndrome de espectro autista, facilitando la expresión emocional en momentos difíciles y sirviendo como un puente de comunicación valioso.
+Los peluches terapéuticos son diseñados específicamente para asistir a niños con dificultades en la comunicación, ayudándoles a expresar emociones y fomentando la comprensión y conexión en su entorno.
+Este proyecto de innovación utiliza modelado e impresión 3D con el objetivo de fortalecer la capacidad cognitiva y emocional de los niños, presentando diversas ventajas.
+            </p>
+            <h3 class="text-[#588B86] font-bold text-4xl mb-5">Diagrama de Flujo</h3>
+            <img src="/assets/img/image.webp" alt="" class="mb-10 m-auto">
+            <h3 class="text-[#588B86] font-bold text-4xl mb-10">Componentes</h3>
+            <div class="grid grid-cols-4 gap-10 mb-10">
+                <div class="w-[250px] rounded-lg ">
+                    <h4 class="bg-[#F4D9D0] text-black text-center rounded-lg py-1 mb-3">ARDUINO NANO</h4>
+                    <div class="transition ease-in-out delay-150 rounded-lg">
+                        <img src="/assets/img/componentes/ARDUINO_NANO.webp" alt="" class="transition ease-in-out delay-150 hover:scale-105 w-[170px] m-auto">
+                    </div>
+                    <div  class="">
+                        <p class="text-black">El Arduino Nano es un tablero pequeño, completo y fácil de usar basado en el ATmega328P</p>
+                    </div>
+                </div>
+                <div class="w-[250px] rounded-lg ">
+                    <h4 class="bg-[#F4D9D0] text-black text-center rounded-lg py-1 mb-3">TERMOCONTRAIBLE</h4>
+                    <div class="transition ease-in-out delay-150 rounded-lg">
+                        <img src="/assets/img/componentes/tubo_termocontraible.webp" alt="" class="transition ease-in-out delay-150 hover:scale-105 w-[170px] m-auto">
+                    </div>
+                    <div  class="">
+                        <p class="text-black">El tubo termocontraíble se utiliza para sellar, proteger, aislar y reparar el cable. Consiste en tubos de plástico o goma que se contraen cuando se aplica calor. </p>
+                    </div>
+                </div>
+
+                <div class="w-[250px] rounded-lg ">
+                    <h4 class="bg-[#F4D9D0] text-black text-center rounded-lg py-1 mb-3">CABLES HEMBRA/MACHO</h4>
+                    <div class="transition ease-in-out delay-150 rounded-lg">
+                        <img src="/assets/img/componentes/cables_hembra_a_macho.webp" alt="" class="transition ease-in-out delay-150 hover:scale-105 w-[170px] m-auto">
+                    </div>
+                    <div  class="">
+                        <p class="text-black">Con estos cables, separables individualmente o en grupos, se conecta al Arduino fácilmente y sin necesidad de soldar o atornillar.</p>
+                    </div>
+                </div>
+
+                <div class="w-[250px] rounded-lg ">
+                    <h4 class="bg-[#F4D9D0] text-black text-center rounded-lg py-1 mb-3">ANILLO LED 8</h4>
+                    <div class="transition ease-in-out delay-150 rounded-lg">
+                        <img src="/assets/img/componentes/ANILLO_LED.webp" alt="" class="transition ease-in-out delay-150 hover:scale-105 w-[170px] m-auto">
+                    </div>
+                    <div  class="">
+                        <p class="text-black">LED (Light Emitting Diode), es un elemento capaz de recibir una corriente eléctrica moderada </p>
+                    </div>
+                </div>
+
+                <div class="w-[250px] rounded-lg ">
+                    <h4 class="bg-[#F4D9D0] text-black text-center rounded-lg py-1 mb-3">RESISTENCIAS</h4>
+                    <div class="transition ease-in-out delay-150 rounded-lg">
+                        <img src="/assets/img/componentes/resistencias.webp" alt="" class="transition ease-in-out delay-150 hover:scale-105 w-[170px] m-auto">
+                    </div>
+                    <div  class="">
+                        <p class="text-black">La resistencia es una medida de la oposición al flujo de corriente en un circuito eléctrico.</p>
+                    </div>
+                </div>
+
+                <div class="w-[250px] rounded-lg ">
+                    <h4 class="bg-[#F4D9D0] text-black text-center rounded-lg py-1 mb-3">SENSOR DE FUERZA</h4>
+                    <div class="transition ease-in-out delay-150 rounded-lg">
+                        <img src="/assets/img/componentes/sensor_de_fuerza.webp" alt="" class="transition ease-in-out delay-150 hover:scale-105 w-[170px] m-auto">
+                    </div>
+                    <div  class="">
+                        <p class="text-black">El sensor de fuerza o presión mf01 autoadherible para Arduino es ideal para detectar una fuerza aplicada en la membrana.</p>
+                    </div>
+                </div>
+
+                <div class="w-[250px] rounded-lg ">
+                    <h4 class="bg-[#F4D9D0] text-black text-center rounded-lg py-1 mb-3">BAQUELITA PERFORADA</h4>
+                    <div class="transition ease-in-out delay-150 rounded-lg">
+                        <img src="/assets/img/componentes/BAQUELITA.webp" alt="" class="transition ease-in-out delay-150 hover:scale-105 w-[170px] m-auto">
+                    </div>
+                    <div  class="">
+                        <p class="text-black">es una tablilla con orificios, en la cual se pueden armar de manera fácil circuitos electrónicos mediante la utilización de componentes electrónicos y cables que se sueldan en él.</p>
+                    </div>
+                </div>
+
+                <div class="w-[250px] rounded-lg ">
+                    <h4 class="bg-[#F4D9D0] text-black text-center rounded-lg py-1 mb-3">SWITCH ROCKER</h4>
+                    <div class="transition ease-in-out delay-150 rounded-lg">
+                        <img src="/assets/img/componentes/SWITCH.webp" alt="" class="transition ease-in-out delay-150 hover:scale-105 w-[170px] m-auto">
+                    </div>
+                    <div  class="">
+                        <p class="text-black">Funciona mediante campo magnético, y se encuentra encapsulado en un tubo de vidrio al vacío. </p>
+                    </div>
+                </div>
+    
+            </div>
+            <h3 class="text-[#588B86] font-bold text-4xl">Codificación</h3>
+            <pre>
+                <code>
+        #include < Adafruit_NeoPixel.h >
+        #define PIN        2 
+        #define NUMPIXELS 12
+        Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
+        
+        void setup() {
+            // initialize serial communication at 9600 bits per second:
+            Serial.begin(9600);
+            pixels.begin(); // INITIALIZE NeoPixel strip object (REQUIRED)
+            for(int i=0; i < NUMPIXELS; i++) { // For each pixel...
+                pixels.setPixelColor(i, pixels.Color(0, 0, 0));
+                pixels.show();   // Send the updated pixel colors to the hardware.
+                delay(10); // Pause before next pass through loop 
+            }
+        }
+        
+        // the loop routine runs over and over again forever:
+        void loop() {
+            // read the input on analog pin 0:
+            int sensor = analogRead(A0);
+            Serial.println(sensor);
+            delay(1);  
+            if(sensor>35 && sensor < 200){//primer color
+                sensor=0;
+                pixels.clear();
+                for(int i=0; i < NUMPIXELS; i++) { // For each pixel...
+                    pixels.setPixelColor(i, pixels.Color(0, 255, 0));
+                    pixels.show();   // Send the updated pixel colors to the hardware.
+                    delay(10); // Pause before next pass through loop
+                }
+            }
+            if(sensor > 200 && sensor < 400){//segundo color
+                sensor=0;
+                pixels.clear();
+                for(int i=0; i < NUMPIXELS; i++) { // For each pixel...
+                    pixels.setPixelColor(i, pixels.Color(255, 0, 0));
+                    pixels.show();   // Send the updated pixel colors to the hardware.
+                    delay(10); // Pause before next pass through loop
+                }
+            }
+            if(sensor > 400 && sensor < 1023){//tercer color
+                sensor=0;
+                pixels.clear();
+                for(int i=0; i < NUMPIXELS; i++) { // For each pixel...
+                    pixels.setPixelColor(i, pixels.Color(0, 0, 255));
+                    pixels.show();   // Send the updated pixel colors to the hardware.
+                    delay(10); // Pause before next pass through loop
+                }
+            }
+            delay(200);
+        }
+                </code>
+            </pre>
+        </div>
+    </section>
+</body>
+</html>

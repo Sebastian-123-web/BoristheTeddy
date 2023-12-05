@@ -10,6 +10,13 @@ body{
     margin: 0;
 }
 
+.active{
+    background-color: #fff;
+    color: #588B86;
+    border-radius: 25px;
+    font-weight: 700;
+}
+
 /* TAMAÑOS */
 
 .__70{
