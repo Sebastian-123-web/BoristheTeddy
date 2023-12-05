@@ -5,11 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boris the Teddy</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,100&display=swap">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                },
+                fontFamily: {
+                    poppins: ['Poppins'],
+                    josefin: ['"Josefin Sans"']
+                },
+            }
+        }
+    </script>
 </head>
 <body>
     <section class="__barra_superior">
         <div class="">
-            <div class="__logo_titulo">
+            <div class="__logo_titulo font-bold">
                 <h3>Boris the Teddy</h3>
             </div>
             <nav class="__navegacion">
@@ -24,7 +38,7 @@
     <section class="__banner">
         <div class="">
             <div class="__titulo_descr">
-                <h1 class="__titulo">"Bienvenido a la Compañía de Boris"</h1>
+                <h1 class="__titulo font-poppins font-bold">"Bienvenido a la Compañía de Boris"</h1>
                 <p class="__descripcion">Descubre a Boris, el compañero diseñado especialmente para niños con Síndrome de Espectro Autista.</p>
                 <button class="__btn">Saber más</button>
             </div>
@@ -38,9 +52,40 @@
     </div>
 
     <section class="__detalles_del_proyecto">
-        <div class="">
-            <h2 class="__subtitulos">¿De qué trata?</h2>
+        <div class="__de_que_trata">
+            <h2 class="__subtitulos font-bold">¿De qué trata?</h2>
+            <div class="__informacion">
+                <div>
+                    <img src="/assets/img/bebe_con_peluche.svg" alt="">
+                </div>
+                <div class="flex flex-col text-black pl-7">
+                    <h3 class="text-[#588B86] font-bold text-2xl mb-4">Nuestros Peluches Terapéuticos</h3>
+                    <p class="text-black mb-4">Nuestros peluches terapéuticos están diseñados especialmente para ayudar a los niños que enfrentan desafíos en la comunicación a expresar sus emociones durante esos momentos en los que se sienten retraídos. Estos adorables compañeros no solo brindan apoyo emocional, sino que también promueven la comprensión y la conexión en su entorno.</p>
+                    <button class="w-[150px] bg-[#588B86] text-white px-4 py-1 rounded-full">SABER MÁS</button>
+                </div>
+            </div>
+            <div class="__informacion">
+                <div>
+                    <h3 class="text-[#588B86] font-bold text-2xl mb-4">Conoce a Boris</h3>
+                    <p class="text-black mb-4">Boris es mucho más que un simple osito de peluche. Es un compañero especialmente diseñado para brindar apoyo a los niños que enfrentan el desafío del síndrome de espectro autista. Con su ventaja única de luces de colores en su pancita, Boris les ayuda a expresar sus emociones en momentos difíciles, proporcionando un puente de comunicación invaluable para ellos y sus seres queridos. Descubre cómo Boris puede ser ese confidente especial que facilita el entendimiento emocional y la conexión en su vida.</p>
+                    <button class="w-[150px] bg-[#588B86] text-white px-4 py-1 rounded-full">SABER MÁS</button>
+                </div>
+                <div>
+                    <img src="/assets/img/oso_uwu.svg" alt="">
+                </div>
+            </div>
+            <div class="__informacion">
+                <div>
+                    <img src="/assets/img/persona_nina.svg" alt="">
+                </div>
+                <div>
+                    <h3 class="text-[#588B86] font-bold text-2xl mb-4">Nuestros Peluches Terapéuticos</h3>
+                    <p class="text-black mb-4">Nuestros peluches terapéuticos están diseñados especialmente para ayudar a los niños que enfrentan desafíos en la comunicación a expresar sus emociones durante esos momentos en los que se sienten retraídos. Estos adorables compañeros no solo brindan apoyo emocional, sino que también promueven la comprensión y la conexión en su entorno.</p>
+                    <button class="w-[150px] bg-[#588B86] text-white px-4 py-1 rounded-full">SABER MÁS</button>
+                </div>
+            </div>
         </div>
     </section>
+    
 </body>
 </html>

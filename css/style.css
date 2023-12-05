@@ -118,3 +118,15 @@ body{
     text-align: center;
     font-size: 2.5rem;
 }
+
+.__de_que_trata{
+    display: flex;
+    flex-direction: column;
+}
+.__informacion{
+    display: flex;
+    flex-direction: row;
+}
+.__informacion_titulo{
+    
+}
